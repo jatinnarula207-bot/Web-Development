@@ -1,0 +1,130 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    margin:0;
+    padding:40px;
+    max-width: 1200px;
+    background-color: #0096C7
+}
+.logo{
+    font-size:28px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color:#48CAE4
+}
+.logo::after{
+    content: ".";
+    color:#90E0EF;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    transition:color 0.2s;
+    font-weight:500;
+    font-size:16px;
+}
+ nav a:hover{
+    color:#023E8A;
+    text-decoration: underline;
+    width:5px;
+}
+/* hero section */
+.content{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 70px;
+}
+img{
+    border-radius:20px;
+    transition:all 0.3s ease;
+}
+img:hover{
+    transform:translateY(-5px);
+}
+hr{
+    margin-top:30px;
+}
+h2{
+    color:#03045E;
+}
+.content1 p{
+    color:#023E8A;
+    line-height: 1.8;
+}
+.content1 span{
+    color:#023E8A;
+}
+.btns{
+    display:inline-flex;
+    gap:20px;
+    padding:14px 32px;
+    justify-content: center;
+    align-items: center;
+}
+.btns a{
+    text-decoration: none;
+    color:#48CAE4;
+    gap:30px;
+}
+.btn1,.btn2{
+    background-color: #023E8A;
+    border-radius:10px;
+    padding:10px;
+    box-shadow: 0 6px 20px #023E8A;
+    transition: all 0.3s ease;
+}
+.btn1:hover,.btn2:hover{
+    transform: translateY(-5px);
+    background-color: #03045E;
+}
+.btns2{
+    display: inline-flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    color:#0096C7;
+}
+.btn3,.btn4{
+    padding:10px;
+    border-radius:8px;
+    border:none;
+    background-color: #023E8A;
+    transition:all 0.3s ease;
+}
+.btn3:hover,.btn4:hover{
+    background-color: #03045E;
+    transform: translateX(-5px);
+}
+/* stats section */
+.stats{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:10px;
+    margin-top:30px;
+    text-align:center;
+}
+.stat-item{
+    background-color: #48CAE4;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:2px 6px 20px #00B4D8;
+    transition:all 0.3s ease;
+}
+.stat-item:hover{
+    background: linear-gradient(#90E0EF,#48CAE4,#0096C7,#023E8A,#03045E);
+    transform:scale(1.1)
+}
